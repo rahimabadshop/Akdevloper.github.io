@@ -1,75 +1,47 @@
-/*
-======================
-Reset
-======================
-*/
-:root {
-  --primaryColor: #f1f1f1;
-  --black: #222;
-  --black2: #555;
-  --black3: #252525;
-  --black4: #000;
-  --black5: #212529;
-  --orange: #eb0028;
-  --white: #fff;
-  --grey: #959595;
-  --grey2: #666;
-  --grey3: #ccc;
-  --secondaryColor: #2b1f4d;
-  --yellow: #ffcc00;
-  --green: #59b210;
-  --blue: rgb(56, 10, 223);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:600);
+@import url('https://fonts.googleapis.com/css?family=Abel|Bubbler+One|Inconsolata');
+
+
+
+.one-time{
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit;
+.slick-prev:before,
+.slick-next:before {
+    color: black;
 }
 
-html {
-  font-size: 62.5%;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
+.navbar-brand{
+  font-family: Open Sans;
+  font-size: 200%;
+  font-style: italic;
 }
 
-body,
-input {
-  font-size: 1.6rem;
-  font-weight: 400;
-  font-family: "Archivo", sans-serif;
-  color: var(--black);
+body{
+  font-family: Abel;
+  font-size: 150%;
+  font-weight: bold;
 }
 
-a {
-  text-decoration: none;
+#topnav{
+  height:70px;
 }
-
-ul {
-  list-style: none;
-}
-
-img {
-  max-width: 100%;
-}
-
-h3,
-h4 {
-  font-weight: 500;
-}
-
-/*
-======================
-Header
-======================
-*/
-
-.header {
+#topnav > * {
   position: relative;
+  top:7px;
+}
+#search{
+  position: relative;
+  left:360px;
+}
+#search_btn{
+  position: relative;
+  left:360px;
 }
 
-.container {
-  max-width: 117rem;
-  margin: 0 auto;
-  padding: 0 1.6rem;
+#shoppingcart{
+  position: relative;
+  right: 240px;
 }
